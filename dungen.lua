@@ -3,11 +3,10 @@ print("Test")
 w1 = true
 
 while w1 == true do
-    --err handling loop
+    --difficulty select
     print("Difficulty? (1-10)")
 
-		i1 = io.read()
-    n1 = tonumber()
+    n1 = tonumber(io.read())
 
     if n1 < 1 then
 			print("Number can not be under 1")
@@ -17,8 +16,11 @@ while w1 == true do
 
 		else
 			difficulty = n1
-			print("Difficulty: " i1) --why no work?!
+			print("Difficulty:")
+			print(difficulty)
+			w1 = false
 			
 		end
 
 end
+
