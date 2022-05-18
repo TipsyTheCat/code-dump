@@ -5,7 +5,7 @@ w1 = true
 while w1 == true do
 	print("1. testing-stuff")
 	print("2. catty.lua")
-	print("3. dungen.lua")
+	print("3. DoneGEN.lua")
 	print("What to run?")
 	n1 = tonumber(io.read())
 
@@ -20,8 +20,8 @@ while w1 == true do
 		--w1 = false
 
 	elseif n1 == 3 then
-		print("Running dungen.lua")
-		dofile("dungen.lua")
+		print("Running DoneGEN.lua")
+		dofile("DoneGEN.lua")
 		--w1 = false
 
 	
